@@ -1,0 +1,23 @@
+:root, body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: whitesmoke;
+    font-size: 1.05rem;   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 83vw;
+    max-height: 75vh;
+    padding-top: 10vh;
+}
+
+h1,h2,h3,h4{
+    color: rgba(22, 241, 241, 0.863);
+}
+
+p{
+    color: darkgrey;
+}

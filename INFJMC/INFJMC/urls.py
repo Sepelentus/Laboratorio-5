@@ -20,8 +20,8 @@ from core import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
-    path('carreras/', views.carreras, name=('carreras')),
-    path('docentes/', views.docentes, name=('docentes'))
+    path('carreras/', views.carreras, name='carreras'),
+    path('docentes/', views.docentes, name='docentes')
 ]
 
 #Con el path se define donde va a llevar cuando se escriba por ejemplo home/ en este caso.

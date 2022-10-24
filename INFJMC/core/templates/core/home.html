@@ -1,12 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Hola mundo
-</body>
-</html>
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-5 col-lg-5 col-xl-5">
+            <h1>Tecnico e Ingeneria en Informatica</h1>
+            <p style="padding-top:20px; text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga illum reprehenderit esse ad iusto maiores accusantium minus officiis saepe sunt numquam porro eius, obcaecati pariatur repellat unde provident sint magni eaque debitis! Veritatis quam corporis debitis, ipsa vero fugiat maiores. Quasi eaque, officia totam sed nobis a, distinctio, blanditiis fugit itaque repellendus doloribus architecto eius dolor deserunt sint? Soluta, fuga molestias. Earum voluptatem numquam laudantium, repellat ut dolorem id hic! Cumque, optio numquam! Ipsam, tempora?</p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2"></div>
+        <div class="col-xs-12 col-md-5 col-lg-5 col-xl-5">
+        <img 
+        src="{% static 'core/img/informatica-thumb.jpg' %}" class="img-fluid" alt="logoinformatica">
+        </div>
+    </div>
+</div>
+{% endblock  %}
